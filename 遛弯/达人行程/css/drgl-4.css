@@ -1,0 +1,376 @@
+@charset "UTF-8";
+/* 头部 */
+header{
+	position:relative;
+	height:100px;
+	border-bottom:3px solid #0D0277;
+	background:url(../images/%E9%81%9B%E5%BC%AF%E5%9B%BE%E6%A0%87.png) no-repeat;
+	background-size:140px 100px;
+	background-position:320px;}
+header .ul1{
+	width:600px;
+	position:relative;
+	left:600px;
+	top:20px;}
+header .ul1 li{
+	float:left;
+	border-right:1px solid #000000;
+	height:17px;
+	text-align:center;
+	line-height:17px;
+}
+header .ul1 li a{
+	text-decoration:none;
+	color: #696767;
+	font-size:14px;
+	margin: 0 20px;
+	vertical-align:middle
+	}
+header .ul1 li:nth-of-type(4){
+	border-right:none;
+	}
+header ul li a img{
+	vertical-align:middle;
+	width:20px;
+	height:20px;
+	position:relative;
+	top:-3px
+}
+/* 设置文本框以及提交按钮 */
+input{
+	position:relative;
+	left:600px;
+	top:12px;
+	height:20px;}
+input[type=submit]{
+	background:url(../images/%E6%94%BE%E5%A4%A7%E9%95%9C.png) no-repeat;
+	background-size:14px 20px;
+	background-position:4px;
+	position:relative;
+	top:17px;
+	left:594px;
+	width:28px;
+	height:27px;
+	border:1px solid #C1BEBE;
+	border-radius:0 16px 16px 0;
+	}
+.ul2{
+	position:relative;
+	left:500px;
+	top:45px;
+	width:800px}
+.ul2 a{
+	font-size:14px;
+	text-decoration:none;
+	color: #383838;
+	margin:0 20px;
+	}
+.ul1 li .a1{
+	color:#F2A207}
+.ul2 li{
+	float:left;}
+/* 身体部分  */
+section{
+	width:900px;
+	margin:10px auto;
+	position:relative;
+	}
+section>span>a{
+	text-decoration:none;
+	font-size:12px;
+	color:#6D6B6B;
+	position:relative;
+	}
+.div01 {
+	position: relative;
+	height: 160px;
+	margin: 10px 0;
+}
+.div01 div:nth-of-type(1){
+	background: url(../images/背景.png) no-repeat;
+	height: 110px;
+	background-size: 900px 110px;
+}
+.div01 div:nth-of-type(2){
+	height: 106px;
+	width: 106px;
+	background-color: #fff;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}
+.div01>div>p{
+	color: #ffffff;
+	font-size: 16px;
+	position: absolute;
+	left: 130px;
+	top: 80px;
+}
+.div01>div>img{
+	width: 100px;
+	height: 100px;
+	margin: 3px 3px;
+}
+.div01>p{
+	position: relative;
+	left: 130px;
+	top: 20px;
+}
+/* frame first */
+.div02{
+	width: 630px;
+	height: 2900px;
+}
+.frame{
+	width: 600px;
+	height: 400px;
+	border: 1px solid rgb(216,217,217);
+	padding: 20px 15px;
+	margin: 20px 0;
+	position: relative;
+}
+.frame .first{
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.first span img{
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+}
+.first span{
+	margin: 0 5px;
+	position: relative;
+	left: 260px;
+}
+.first span{
+	color: rgb(175,176,177);
+	font-size: 12px;
+
+}
+/* frame second */
+.div02 img{
+	width: 320px;
+	height:200px ;
+}
+.second{
+	height: 200px;
+	width: 250px;
+	position: absolute;
+	right: 20px;
+	top: 60px;
+	border-top: 1px solid rgb(208, 209,209);
+	border-bottom: 1px solid rgb(208, 209,209);
+}
+.second p i{
+	font-weight: bold;
+	font-size: 14px;
+}
+.second p{
+	color:rgb(79,80,81);
+	font-size:14px;
+	margin: 15px 0;
+	height: 30px;
+	line-height: 18px;
+}
+.second del{
+	font-size: 14px;
+	color: rgb(123,123,124)
+}
+.second div{
+	font-size: 14px;
+	color: rgb(123,123,124);
+}
+.second div span{
+	color:rgb(185,20,6);
+	font-size: 30px;
+}
+.second>a{
+	text-decoration: none;
+	display:block;
+	height: 30px;
+	width:100px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	background: rgb(242,163,58);
+	border-radius: 8px;
+	color: #fff;
+	position: absolute;
+	right: 0px;
+	bottom: 10px;
+}
+.three{
+	position: relative;
+}
+.three>img{
+	height: 32px;
+	width: 32px;
+	margin-top: 10px;
+}
+.ul-1 li img{
+	height: 18px;
+	width: 28px;
+	vertical-align: middle;
+}
+.three .ul-1{
+	position: absolute;
+	top: 5px;
+	left: 30px;
+	list-style-type: disc;
+}
+.three .ul-1 li{
+	color: rgb(131,132,133);
+	float: left;
+	margin-top: 12px;
+	margin-left: 42px;
+	background: #fff;
+}
+.ul-1 li a{
+	color: rgb(131,132,133);
+	text-decoration: none;
+}
+.ul-2>li{
+	float: left;
+}
+.ul-2 ul{
+	position: relative;;
+	left:40px;
+	margin-top: 10px;
+}
+.ul-2 ul>li{
+	color: rgb(141,142,143);
+	font-size: 12px;
+	margin: 10px;
+}
+/* 页码  */
+.div2-3{
+	height:100px;}
+.div2-3 ul{
+	position:relative;
+	top:20px;
+	left:160px}
+.div2-3>ul>li{
+	height:20px;
+	float:left;
+	margin:0 5px;}
+.div2-3>ul>li:nth-of-type(3){
+	height:20px;
+	line-height:10px}
+.div2-3>ul>li:nth-of-type(7){
+	height:20px;
+	line-height:10px}
+.div2-3>ul>li:nth-of-type(5){
+	height:16px;
+	width:24px;
+	background-color: #605F5F;
+	line-height:10px;
+	text-align:center;
+	line-height:16px}
+.div2-3 .li3{
+	color:#FFFFFF;
+	}
+
+.div2-3 ul li a{
+	text-decoration:none;
+	color: #555555;
+	font-size:14px;}
+.div2-3 hr{
+	width:620px;
+	position:relative;
+	top:40px;
+}
+/* div03 */
+.div03>img{
+	width:250px;
+	height:350px}
+.div03>img:nth-of-type(1){
+	position:absolute;
+	right:0;
+	top:204px;
+	}
+.div03>img:nth-of-type(2){
+	position:absolute;
+	right:0;
+	top:580px;
+	}
+.span01{
+	width:150px;
+	height:30px;
+	position:absolute;
+	right:50px;
+	top:460px;
+	background:#000000;
+	opacity:0.5;
+	color:#FFFFFF;
+	line-height:30px;
+	text-align:center;}
+.span02{
+	width:150px;
+	height:30px;
+	position:absolute;
+	right:50px;
+	top:830px;
+	background:#000000;
+	opacity:0.5;
+	color:#FFFFFF;
+	line-height:30px;
+	text-align:center;}
+/* 尾部样式 */
+footer{
+	height:200px;
+	background-color: #043741;
+	position:relative;
+	}
+footer ul{
+	float:left;
+	height:160px;
+	width:100px;
+	margin:0 20px;
+	position:relative;
+	left:300px}
+footer ul li{
+	margin:10px 0;
+	 }
+footer ul li a{
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size:14px;}
+.f-li{
+	font-size:18px}
+#ul1 li{
+	color:#fff;
+	font-size:12px;
+	width:120px;}
+#ul1 li:nth-of-type(1){
+	font-size:20px;
+	font-weight:bold;
+	}
+#ul1 li a{
+	display:block;
+	height:20px;
+	width:120px;
+	line-height:20px;
+	color:#043741;
+	background-color:#FFFFFF;
+	border-radius:5px;
+	text-align:center;
+	margin-top:5px
+	}
+footer ul img{
+	width:30px;
+	height:30px}
+footer hr{
+	position:absolute;
+	top:160px;
+	width:100%;
+	}
+footer p{
+	color:#FFFFFF;
+	font-size:14px;
+	position:absolute;
+	bottom:10px;
+	left:500px;}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin:0}
+	
+	
+ul{
+	width:208px;
+	height:156px;
+	}
+	
+li{
+	float:left;
+	list-style-type:none;}	
+img{
+	width:50px;
+	height:50px;
+	}
+	

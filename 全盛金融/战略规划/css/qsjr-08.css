@@ -1,0 +1,164 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	padding:0;}
+
+header{
+	height:152px;
+	width:1440px;
+	background: url(../images/%E6%95%B4%E4%BD%93%E5%A4%B4%E9%83%A8%E8%83%8C%E6%99%AF.png) no-repeat;
+	background-size:100% 152px}
+header img{
+	height:40px;
+	width:150px;
+	position:relative;
+	top:40px;
+	left:208px}
+header ul li{
+	border-bottom:2px solid #969696;
+	float:left;
+	list-style:none;
+	position:relative;
+	left:680px;}
+	
+header ul li a{
+	font-size:14px;
+	text-decoration:none;
+	margin:0 10px;
+	color:#000000;
+	}
+header ul li a:hover{
+	border-bottom:2px solid red;}
+header span{
+	display:block;
+	height:12px;
+	width:100px;
+	position:absolute;
+	top:120px;
+	left:246px
+	}
+header span a{
+	color:#FFFFFF;
+	font-size:9px;
+	text-decoration:none;
+	}
+/* 身体部分 */
+section{
+	height:1000px;
+	margin:10px 180px;
+	position:relative;}
+section div{
+	position:relative}
+img{
+	width:374px;
+	height:180px;}
+.img1{
+	position:absolute;
+	left:40px
+	}
+section>div>div{
+	height:180px;
+	background-color: #F0F0F0;
+	width:560px;
+	height:178px;
+	padding:0 20px;
+	position:absolute;
+	left:371px;
+	top:2px;
+	margin:0 40px;}
+.div1{
+	position:absolute;
+	left:371px;
+	top:1px;
+	}
+
+section div>div p{
+	width:242px;
+	font-size:14px;
+	color: #797777;
+	margin-top:20px;
+	margin-left:80px;
+	position:relative;
+	top:10px}
+section div>div ul{
+	width:100px;
+	font-weight:bold;
+	list-style:none;
+	font-size: 18px;
+	border-left:2px solid red;
+	padding-left:10px;
+	margin:10px 5px;
+	position:relative;
+	top:-20px;
+	left:320px}
+section>div>div>span{
+	font-size:12px;
+	color: #959595;
+	line-height:20px}
+	
+section>div{
+	height:178px;
+	margin:60px 0px;}
+.img2{
+	position:relative;
+	left:638px;}
+.div2{
+	position:absolute;
+	left:50px;
+	top:2px}
+footer{
+	position:relative;
+	height:120px;
+	width:1550px
+	}
+
+/* 尾部 */
+
+
+footer{
+
+	height:120px;
+	width:1440px
+	}
+.img01{
+	height:44px;
+	width:188px;
+	position:absolute;
+	top:45px;
+	left:264px;}
+
+footer ul{
+	position:absolute;
+	top:40px;
+	right:270px;
+	list-style:none}
+footer ul li{
+	float:left;
+	border-right:1px solid #C5C5C5;	}
+footer ul li a{
+	text-decoration:none;
+	margin:0 10px;
+	color:#777777;
+	font-size:12px}
+footer .p1{
+	color:#777777;
+	font-size:14px;
+	position:absolute;
+	top:62px;
+	right:270px;
+	}
+footer .p2{
+	color:#777777;
+	font-size:14px;
+	position:absolute;
+	top:80px;
+	right:270px;
+	}
+footer .img02{
+	height:52px;
+	width:52px;
+	position:relative;
+	top:40px;
+	left:1180px;
+	}
+
